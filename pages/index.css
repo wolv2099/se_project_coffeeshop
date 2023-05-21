@@ -9,8 +9,37 @@
 }
 
 .header {
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  position: relative;
 }
 
+.logo {
+  width: 126px;
+  height: 142px;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-right: 80px;
+}
+.nav__links {
+  display: flex;
+  justify-content: right;
+  column-gap: 20px;
+  list-style: none;
+}
+
+.header__image {
+  width: 646px;
+  height: 568px;
+  padding-top: 124px;
+  padding-right: 5px;
+}
 .content {
 }
 
