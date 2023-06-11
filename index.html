@@ -112,7 +112,38 @@
             <form class="form">
               <fieldset class="form__fieldset">
                 <label for="name" class="form__label">Name *</label>
-                <input type="text" class="form__input" id="name" />
+                <input
+                  type="text"
+                  class="form__input"
+                  id="name"
+                  name="name"
+                  value="Name Surname"
+                />
+                <label for="number" class="form__label"
+                  >Number of guests *</label
+                >
+                <input
+                  type="text"
+                  class="form__input"
+                  id="number"
+                  name="number"
+                  value="1-8"
+                />
+                <label for="date" class="form__label">Date & time *</label>
+                <input
+                  type="datetime-local"
+                  class="form__input for__input_datetime-local"
+                  id="datetime-local"
+                  name="datetime-local"
+                />
+                <label for="email" class="form__label">Your email *</label>
+                <input
+                  type="email"
+                  class="form__input"
+                  id="email"
+                  name="email"
+                  value="email@email.com"
+                />
               </fieldset>
             </form>
           </div>

@@ -178,9 +178,39 @@
 }
 
 .form {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
 }
 
-. .about {
+.form__label {
+  display: block;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.form__input {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #838383;
+}
+
+.form__input[type="text"],
+.form__input[type="email"],
+.form__input[type="date"],
+.form__input_type_select {
+  border-radius: 4px;
+}
+
+.about {
 }
 
 .footer {
