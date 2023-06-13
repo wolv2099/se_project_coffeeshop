@@ -123,11 +123,13 @@
                   >Number of guests *</label
                 >
                 <input
-                  type="text"
+                  type="number"
                   class="form__input"
                   id="number"
                   name="number"
                   placeholder="  1-8"
+                  min="1"
+                  max="8"
                 />
                 <label for="datetime-local" class="form__label"
                   >Date & time *</label
@@ -152,7 +154,7 @@
                     type="checkbox"
                     class="form__input form__input_type_checkbox"
                     name="I agree with the terms of use"
-                    value="I agree with the terms of use"
+                    placeholder="I agree with the terms of use"
                   />
                   <span>I agree with the terms of use</span>
                 </label>

@@ -208,10 +208,16 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+  border-color: #838383;
+}
+
+.form__input::placeholder {
+  font-size: 20px;
   color: #838383;
 }
 
 .form__input[type="text"],
+.form__input[type="number"],
 .form__input[type="email"],
 .form__input[type="datetime-local"],
 .form__input_type_select {
@@ -233,6 +239,11 @@
   color: #ffffff;
   background-color: #2f80ed;
   margin-bottom: 32px;
+}
+
+.form__button:hover {
+  opacity: 70%;
+  transition-timing-function: ease-in;
 }
 
 .form__input[type="checkbox"] {
