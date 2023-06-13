@@ -189,6 +189,7 @@
 
 .form__fieldset {
   margin-bottom: 120px;
+  border: none;
 }
 
 .form__label {
@@ -208,8 +209,6 @@
   font-size: 20px;
   line-height: 30px;
   color: #838383;
-  min-height: 20px;
-  min-width: 20px;
 }
 
 .form__input[type="text"],
@@ -222,7 +221,7 @@
   margin-bottom: 32px;
 }
 
-.form__button {
+.form__button[type="submit"] {
   display: block;
   font-family: Inter;
   font-style: normal;
@@ -233,6 +232,18 @@
   height: 60px;
   color: #ffffff;
   background-color: #2f80ed;
+  margin-bottom: 32px;
+}
+
+.form__input[type="checkbox"] {
+  min-height: 20px;
+  min-width: 20px;
+  margin-right: 12px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .about {
