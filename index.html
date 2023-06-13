@@ -117,7 +117,7 @@
                   class="form__input"
                   id="name"
                   name="name"
-                  value="Name Surname"
+                  placeholder="  Name Surname"
                 />
                 <label for="number" class="form__label"
                   >Number of guests *</label
@@ -127,12 +127,14 @@
                   class="form__input"
                   id="number"
                   name="number"
-                  value="1-8"
+                  placeholder="  1-8"
                 />
-                <label for="date" class="form__label">Date & time *</label>
+                <label for="datetime-local" class="form__label"
+                  >Date & time *</label
+                >
                 <input
                   type="datetime-local"
-                  class="form__input for__input_datetime-local"
+                  class="form__input form__input_datetime-local"
                   id="datetime-local"
                   name="datetime-local"
                 />
@@ -142,8 +144,18 @@
                   class="form__input"
                   id="email"
                   name="email"
-                  value="email@email.com"
+                  placeholder="  email@email.com"
                 />
+                <button type="submit" class="form__button">Book a Table</button>
+                <label for="I agree with the terms of use" class="form__label">
+                  <input
+                    type="checkbox"
+                    class="form__input form__input_type_checkbox"
+                    name="I agree with the terms of use"
+                    placeholder=" I agree with the terms of use"
+                  />
+                  <span>I agree with the terms of use</span>
+                </label>
               </fieldset>
             </form>
           </div>
