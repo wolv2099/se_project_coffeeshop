@@ -85,6 +85,7 @@
   font-size: 20px;
   line-height: 30px;
 }
+
 .header__footer {
   margin-top: auto;
   display: flex;
@@ -151,6 +152,89 @@
 }
 
 .menu {
+  height: 100vh;
+  background-color: #fff;
+  background-image: url(../images/background_menu.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.menu__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 0px;
+  max-width: 780px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.menu__subtitle {
+  display: flex;
+  justify-content: center;
+  padding-top: 24px;
+  max-width: 780px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.menu__cards {
+  display: flex;
+  /* flex: auto; */
+  list-style-type: none;
+  /* width: 540px; */
+  flex-wrap: wrap;
+  /* margin: 0px; */
+  /* padding: 0px; */
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 100px;
+}
+
+.card {
+  width: 540px;
+  padding-bottom: 100px;
+}
+
+.card__content {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.card__title {
+  margin: 0px 0px 32px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.card__list-item {
+  display: flex;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.card__list-item:not(:last-of-type) {
+  margin: 0px 0px 16px;
+}
+
+.card__list-divider {
+  flex-grow: 1;
+  border-bottom: 1px solid #838383;
 }
 
 .reservation {
