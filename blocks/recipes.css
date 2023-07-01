@@ -20,7 +20,6 @@
 
 .recipes__subtitle {
   max-width: 438px;
-
   font-family: "Noto Serif";
   font-style: normal;
   font-weight: normal;
@@ -29,7 +28,7 @@
 }
 
 .recipes__video-caption {
-  margin: 24px 0px 215px 0px;
+  margin: 24px 0px 0px 0px;
   display: flex;
   justify-content: space-between;
 }
