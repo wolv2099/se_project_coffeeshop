@@ -22,7 +22,6 @@
 .menu__subtitle {
   display: flex;
   justify-content: center;
-  padding-top: 24px;
   max-width: 780px;
   font-family: "Noto Serif";
   font-style: normal;
