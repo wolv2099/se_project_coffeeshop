@@ -45,10 +45,6 @@
   color: #fff;
 }
 
-.about__paragraph:last-child {
-  margin-bottom: 0;
-}
-
 .about__circle {
   background-color: #2f80ed;
   height: 426px;
