@@ -30,9 +30,12 @@
 }
 
 .recipes__video-caption {
-  margin: 24px 0px 0px 0px;
+  margin: 24px 0 0 0;
   display: flex;
   justify-content: space-between;
+  color: #fff;
+  font-weight: 500;
+  font-size: 20px;
 }
 
 .recipes__videos {
@@ -43,7 +46,9 @@
   justify-content: center;
 }
 
-.recipes__video-area {
+.recipes__iframe {
+  margin: 0 auto;
   width: 480px;
-  margin: 0;
+  height: 273px;
+  border: none;
 }
