@@ -61,7 +61,7 @@ margin-bottom: 16px;
 
 .footer__copyright {
   color: #fff;
-  font-family: "Inter";
+  font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
