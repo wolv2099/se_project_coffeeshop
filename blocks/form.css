@@ -33,7 +33,7 @@
   box-sizing: border-box;
   font-size: 20px;
   line-height: 30px;
-  border-color: #838383;
+  border: 1px solid #838383;
   border-radius: 4px;
   height: 60px;
   margin-bottom: 32px;

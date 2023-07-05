@@ -16,7 +16,7 @@
 
 .footer__social-heading {
   color: #fff;
-  font-family: "Inter";
+  font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -33,7 +33,7 @@
 }
 
 .footer__list-item {
-margin-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .footer__list-item:last-child {
@@ -48,7 +48,7 @@ margin-bottom: 16px;
 
 .footer__social-link {
   color: #fff;
-  
+
   display: flex;
   align-items: flex-end;
   text-decoration: none;
