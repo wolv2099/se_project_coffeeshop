@@ -13,13 +13,9 @@ This is the second project of the Web Development program at Practicum. It was c
 
 ## Plan on improving the project
 
-- having a better understanding of "flex-box"
 - work on getting better at adding videos and animations
+- having a better understanding of "flex-box"
 - spend more time on "custom forms"
 - have a better understanding of width and not use width 100%
 
-## Corrections
-
-- remembering to add alternative fonts
-- checking my margins
-- double-check my folders and vendor folders to make sure I have the correct file path
+Add your ideas here :)
