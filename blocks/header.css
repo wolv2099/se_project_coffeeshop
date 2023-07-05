@@ -43,7 +43,7 @@
 }
 
 .header__span-accent {
-  font-family: "Noto Serif", "Arial", sans-serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
   font-weight: normal;
   font-size: 60px;
@@ -56,7 +56,7 @@
 .header__description {
   z-index: 1;
   max-width: 683px;
-  font-family: "Noto Serif", "Arial", sans-serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
