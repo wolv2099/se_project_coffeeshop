@@ -18,4 +18,10 @@ This is the second project of the Web Development program at Practicum. It was c
 - spend more time on "custom forms"
 - have a better understanding of width and not use width 100%
 
-Add your ideas here :)
+## Corrections
+
+- remembering to add alternative fonts
+- checking my margins
+- double-check my folders and vendor folders to make sure I have the correct file path
+
+  Add your ideas here :)
