@@ -15,7 +15,6 @@
   margin: 0;
 }
 .header__image {
-  z-index: 1;
   width: 646px;
   height: 568px;
   position: absolute;
