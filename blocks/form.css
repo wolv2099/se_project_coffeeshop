@@ -18,6 +18,7 @@
   font-size: 16px;
   line-height: 20px;
   padding-bottom: 8px;
+  justify-content: center;
 }
 
 .form__label_type_checkbox {
@@ -45,7 +46,7 @@
   border-color: #838383;
   width: 20px;
   height: 20px;
-  margin-right: 20px;
+  margin: 0 12px 0 70px;
   position: relative;
   top: 4px;
 }
